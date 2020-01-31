@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lyt"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/five_dp">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/ten_dp"
+        android:text="Title"
+        android:textColor="@color/color_black"
+        card_view:layout_constraintLeft_toLeftOf="parent"
+        card_view:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/ten_dp"
+        android:layout_marginTop="@dimen/fifteen_dp"
+        android:layout_marginBottom="@dimen/fifteen_dp"
+        android:paddingBottom="@dimen/fifteen_dp"
+        android:text="desc"
+        android:textColor="@color/color_black"
+        card_view:layout_constraintLeft_toLeftOf="parent"
+        card_view:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <TextView
+        android:id="@+id/market_cap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/ten_dp"
+        android:layout_marginBottom="@dimen/fifteen_dp"
+        android:paddingBottom="@dimen/fifteen_dp"
+        android:text="marketCap"
+        android:textColor="@color/color_black"
+        card_view:layout_constraintLeft_toLeftOf="parent"
+        card_view:layout_constraintTop_toBottomOf="@+id/price" />
+
+
+    <TextView
+        android:id="@+id/volume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/ten_dp"
+        android:layout_marginBottom="@dimen/fifteen_dp"
+        android:paddingBottom="@dimen/fifteen_dp"
+        android:text="Volume"
+        android:textColor="@color/color_black"
+        card_view:layout_constraintLeft_toLeftOf="parent"
+        card_view:layout_constraintTop_toBottomOf="@+id/market_cap" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/ten_dp"
+        android:layout_marginRight="@dimen/ten_dp"
+        android:background="@color/color_grey"
+        card_view:layout_constraintTop_toBottomOf="@id/volume" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

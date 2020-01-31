@@ -1,0 +1,53 @@
+<resources>
+    <dimen name="hundred_dp">100dp</dimen>
+    <dimen name="hundred_fourty">140dp</dimen>
+    <dimen name="hundred_fifty">150dp</dimen>
+    <dimen name="gradient_layout_hundred_fifty">150dp</dimen>
+    <dimen name="hundred_eighty">180dp</dimen>
+    <dimen name="three_dp">3dp</dimen>
+    <dimen name="five_dp">5dp</dimen>
+    <dimen name="eight_dp">8dp</dimen>
+    <dimen name="ten_dp">10dp</dimen>
+    <dimen name="pin_margin_top_dp">10dp</dimen>
+    <dimen name="rlt_lyt_dp">90dp</dimen>
+    <dimen name="name_margin_top_dp">5dp</dimen>
+    <dimen name="enter_pin_margin_top_dp">10dp</dimen>
+    <dimen name="btn_margin_right_dp">20dp</dimen>
+    <dimen name="btn_margin_top_dp">10dp</dimen>
+    <dimen name="pin_margin_top">10dp</dimen>
+    <dimen name="twenty_dp">20dp</dimen>
+    <dimen name="pin_width">20dp</dimen>
+    <dimen name="pin_height">52dp</dimen>
+    <dimen name="home_vertical_txt_width">42dp</dimen>
+    <dimen name="pin_edit_margin">20dp</dimen>
+    <dimen name="pin_logo_margin_dp">30dp</dimen>
+    <dimen name="fourty_five_dp">45dp</dimen>
+    <dimen name="margin_top_for_floating">120dp</dimen>
+    <dimen name="thirteen_five_dp">13.5dp</dimen>
+    <dimen name="state_width">145dp</dimen>
+    <dimen name="pin_size">60dp</dimen>
+    <dimen name="img_logo_size">125dp</dimen>
+    <dimen name="img_logo_size_height">35dp</dimen>
+    <dimen name="radio_margin_top">5dp</dimen>
+    <dimen name="padding_card_botom">0dp</dimen>
+
+
+
+    <!-- text sizes values -->
+    <dimen name="eighteen_sp">18sp</dimen>
+    <dimen name="pin_txt_eighteen_sp">18sp</dimen>
+    <dimen name="thirteen_sp">13sp</dimen>
+    <dimen name="ten_sp">10sp</dimen>
+    <dimen name="twelve_sp">12sp</dimen>
+    <dimen name="enter_pin_text_sp">16sp</dimen>
+    <dimen name="hom_gradient_text_size_sp">12sp</dimen>
+    <dimen name="fifteen_sp">15sp</dimen>
+    <dimen name="dash_board_txt">15sp</dimen>
+    <dimen name="state_text_size">15sp</dimen>
+    <dimen name="pin_txt_size">16sp</dimen>
+    <dimen name="profile_txt_size">14sp</dimen>
+
+
+
+
+</resources>
