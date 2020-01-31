@@ -56,12 +56,18 @@ class CoinBaseAdapter(var coinList: List<Datum>?) :
 
     }
 
+    /**
+     * Set the updated list to adater
+     * **/
     fun refreshLis(cryptoList: List<Datum>?) {
         this.coinList = cryptoList
         notifyDataSetChanged()
 
     }
 
+    /**
+     * ViewHolder class for CoinBase adapter
+     * **/
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         internal var textViewTitle: TextView
         internal var textViewVolume: TextView

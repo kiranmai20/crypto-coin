@@ -16,6 +16,7 @@ class SplashActivity : AppCompatActivity() {
         runSplashThread()
     }
 
+
     private fun runSplashThread() {
         val background = object : Thread() {
             override fun run() = try {

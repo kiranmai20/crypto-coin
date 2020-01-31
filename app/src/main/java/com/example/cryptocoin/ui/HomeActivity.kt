@@ -82,6 +82,9 @@ class HomeActivity : AppCompatActivity() {
         return true
     }
 
+    /**
+     * API call for getting the Crypto coin list
+     * **/
     private fun getCoinList() {
         val call2: Call<CryptoList> = apiInterface?.doGetUserList("50") as Call<CryptoList>
         call2.enqueue(object : Callback<CryptoList?> {
@@ -91,6 +94,7 @@ class HomeActivity : AppCompatActivity() {
             ) {
                 progress.visibility = View.GONE
                 val list: CryptoList? = response.body()
+                //Update the list and set the values to adapter
                 adapter?.refreshLis(list?.data)
                 adapter!!.notifyDataSetChanged()
             }

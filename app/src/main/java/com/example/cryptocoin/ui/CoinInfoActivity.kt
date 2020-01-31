@@ -56,12 +56,20 @@ class CoinInfoActivity : AppCompatActivity() {
                 "No Network,Please try again.",
                 Toast.LENGTH_SHORT
             ).show()
+
+
+        //Called when the activity has detected the user's click on action bar back
+
         toolbar?.setNavigationOnClickListener {
             finish()
         }
 
     }
 
+    /**
+     *
+     * API call for getting the Crypto coin info data
+     * **/
     private fun getCoinData() {
         val call2: Call<DataResponse> = apiInterface?.getCoinById(id) as Call<DataResponse>
         call2.enqueue(object : Callback<DataResponse?> {
@@ -77,6 +85,8 @@ class CoinInfoActivity : AppCompatActivity() {
                     for ((key, data) in map) {
                         println(key + "/" + data)
                         AppLog.e("name", "" + data.name)
+
+                        //set the values to UI
 
                         title?.text = data.name
                         if (data.urls?.website?.size!! > 0)
